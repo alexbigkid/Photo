@@ -1,4 +1,4 @@
-# robots.txt for http://www.abkphoto.com/
+# robots.txt for http://photo.abkcompany.com/
 
 User-agent: *
 Disallow: /portfolio/
