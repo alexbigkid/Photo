@@ -1,6 +1,0 @@
-# robots.txt for http://photo.abkcompany.com/
-
-User-agent: *
-Disallow: /portfolio/
-Disallow: /images/
-
