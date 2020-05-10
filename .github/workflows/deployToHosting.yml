@@ -1,4 +1,4 @@
-name: Deploy {{ $github.ref }} web CI
+name: Deploy website CI
 
 on:
     push:
