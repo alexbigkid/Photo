@@ -1,4 +1,4 @@
-name: Deploy Dunkel web CI
+name: Deploy Photo web CI
 
 on:
     push:
