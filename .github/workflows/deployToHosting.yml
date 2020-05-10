@@ -1,4 +1,4 @@
-name: Deploy $(echo "$GITHUB_REPOSITORY" | awk -F / '{print $2}') web CI
+name: Deploy $github.ref web CI
 
 on:
     push:
