@@ -25,6 +25,9 @@ jobs:
             - name: Update time stamp and check the checkout
               run: touch index.html && pwd && ls -la
 
+            - name: md-linkcheck
+              uses: ocular-d/md-linkcheck-action@master
+
             - name: dev branch?
               if:   endsWith(github.ref, '/dev')
               run:  echo "::set-env name=ABK_ENV::dev"
