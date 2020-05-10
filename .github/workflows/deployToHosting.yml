@@ -1,4 +1,4 @@
-name: Deploy Photo web CI
+name: Deploy $(echo "$GITHUB_REPOSITORY" | awk -F / '{print $2}') web CI
 
 on:
     push:
